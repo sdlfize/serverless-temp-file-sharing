@@ -5,7 +5,7 @@
   "description": "Serverless Temporary File Sharing using Cloudflare Worker and Google Drive API",
   "main": "worker.js",
   "scripts": {
-    "deploy": "wrangler deploy"
+    "deploy": "npx wrangler deploy"
   },
   "cloudflare": {
     "bindings": {
